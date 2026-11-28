@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:progressive-co-total-loss-deadline@claimwell
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:Claim deadline: Progressive total-loss payouts (Colorado) settlemen
+ t
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://www.cototallossclaim.com/\n\
+ nConfirm the date on the official settlement site\; it can change. Added f
+ rom Claimwell\, an independent guide.
+URL:https://www.cototallossclaim.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Progressive total-loss payouts (Colorado) settl
+ ement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Progressive total-loss payouts (Colorado) settl
+ ement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

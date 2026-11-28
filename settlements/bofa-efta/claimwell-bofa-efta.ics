@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bofa-efta-deadline@claimwell
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Claim deadline: Bank of America debit card and ATM disputes settlem
+ ent
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://www.eftabankingsettlement.co
+ m/\n\nConfirm the date on the official settlement site\; it can change. Ad
+ ded from Claimwell\, an independent guide.
+URL:https://www.eftabankingsettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Bank of America debit card and ATM disputes set
+ tlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Bank of America debit card and ATM disputes set
+ tlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

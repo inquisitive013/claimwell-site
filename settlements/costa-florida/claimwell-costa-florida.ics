@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:costa-florida-deadline@claimwell
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:Claim deadline: Costa Del Mar sunglasses (Florida) settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://costasunglasslitigation.com/
+ \n\nConfirm the date on the official settlement site\; it can change. Adde
+ d from Claimwell\, an independent guide.
+URL:https://costasunglasslitigation.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Costa Del Mar sunglasses (Florida) settlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Costa Del Mar sunglasses (Florida) settlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

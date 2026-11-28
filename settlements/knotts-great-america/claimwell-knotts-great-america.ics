@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:knotts-great-america-deadline@claimwell
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Claim deadline: Knott's Berry Farm and Great America ticket fees (C
+ alifornia) settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://www.knottsgreatamericasettle
+ ment.com/\n\nConfirm the date on the official settlement site\; it can cha
+ nge. Added from Claimwell\, an independent guide.
+URL:https://www.knottsgreatamericasettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Knott's Berry Farm and Great America ticket fee
+ s (California) settlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Knott's Berry Farm and Great America ticket fee
+ s (California) settlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

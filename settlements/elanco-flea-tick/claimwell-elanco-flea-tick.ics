@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:elanco-flea-tick-opens@claimwell
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Claim form opens: K9 Advantix II and Advantage II flea and tick pri
+ ces settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:Confirm the date on the official settlement site\; it can chang
+ e. Added from Claimwell\, an independent guide.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim form opens: K9 Advantix II and Advantage II flea and tick
+  prices settlement
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:elanco-flea-tick-deadline@claimwell
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Claim deadline: K9 Advantix II and Advantage II flea and tick price
+ s settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:Confirm the date on the official settlement site\; it can chang
+ e. Added from Claimwell\, an independent guide.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: K9 Advantix II and Advantage II flea and tick p
+ rices settlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: K9 Advantix II and Advantage II flea and tick p
+ rices settlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

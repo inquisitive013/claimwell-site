@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:columbia-breach-deadline@claimwell
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Claim deadline: Columbia University data breach (May 2025) settleme
+ nt
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://columbiauniversitydatasettle
+ ment.com/\n\nConfirm the date on the official settlement site\; it can cha
+ nge. Added from Claimwell\, an independent guide.
+URL:https://columbiauniversitydatasettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Columbia University data breach (May 2025) sett
+ lement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Columbia University data breach (May 2025) sett
+ lement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

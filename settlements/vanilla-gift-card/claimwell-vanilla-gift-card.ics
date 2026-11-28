@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vanilla-gift-card-deadline@claimwell
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:Claim deadline: Vanilla gift card balance losses (California) settl
+ ement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://www.cagiftcardsettlement.com
+ /\n\nConfirm the date on the official settlement site\; it can change. Add
+ ed from Claimwell\, an independent guide.
+URL:https://www.cagiftcardsettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Vanilla gift card balance losses (California) s
+ ettlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Vanilla gift card balance losses (California) s
+ ettlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

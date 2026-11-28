@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:kroger-rx-deadline@claimwell
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Claim deadline: Kroger pharmacy prescription pricing settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://www.krogersavingsclubsettlem
+ ent.com/\n\nConfirm the date on the official settlement site\; it can chan
+ ge. Added from Claimwell\, an independent guide.
+URL:https://www.krogersavingsclubsettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Kroger pharmacy prescription pricing settlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Kroger pharmacy prescription pricing settlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

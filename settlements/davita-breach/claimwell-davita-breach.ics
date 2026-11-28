@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:davita-breach-deadline@claimwell
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:Claim deadline: DaVita ransomware attack (April 2025) settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://dvacyberattacksettlement.com
+ /\n\nConfirm the date on the official settlement site\; it can change. Add
+ ed from Claimwell\, an independent guide.
+URL:https://dvacyberattacksettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: DaVita ransomware attack (April 2025) settlemen
+ t
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: DaVita ransomware attack (April 2025) settlemen
+ t
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

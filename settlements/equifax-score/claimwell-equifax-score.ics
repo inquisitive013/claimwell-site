@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:equifax-score-deadline@claimwell
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Claim deadline: Equifax credit scores (2022 coding issue) settlemen
+ t
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://www.equifaxfaircreditreporti
+ ngsettlement.com/\n\nConfirm the date on the official settlement site\; it
+  can change. Added from Claimwell\, an independent guide.
+URL:https://www.equifaxfaircreditreportingsettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Equifax credit scores (2022 coding issue) settl
+ ement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Equifax credit scores (2022 coding issue) settl
+ ement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

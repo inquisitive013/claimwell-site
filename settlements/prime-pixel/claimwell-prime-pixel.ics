@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:prime-pixel-deadline@claimwell
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Claim deadline: Prime Healthcare website tracking settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://phsettlement.com/\n\nConfirm
+  the date on the official settlement site\; it can change. Added from Clai
+ mwell\, an independent guide.
+URL:https://phsettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Prime Healthcare website tracking settlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Prime Healthcare website tracking settlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

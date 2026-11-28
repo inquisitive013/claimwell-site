@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:merrill-edge-sweep-update@claimwell
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Last day to update your details: Merrill Edge retirement account ca
+ sh sweep settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://mlretirementaccountlitigatio
+ n.com/\n\nConfirm the date on the official settlement site\; it can change
+ . Added from Claimwell\, an independent guide.
+URL:https://mlretirementaccountlitigation.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Last day to update your details: Merrill Edge retirement accoun
+ t cash sweep settlement
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

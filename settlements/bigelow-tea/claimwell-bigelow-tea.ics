@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bigelow-tea-deadline@claimwell
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Claim deadline: Bigelow Tea "Manufactured in the USA" label (Califo
+ rnia) settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://www.teaclassaction.com/\n\nC
+ onfirm the date on the official settlement site\; it can change. Added fro
+ m Claimwell\, an independent guide.
+URL:https://www.teaclassaction.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Bigelow Tea "Manufactured in the USA" label (Ca
+ lifornia) settlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Bigelow Tea "Manufactured in the USA" label (Ca
+ lifornia) settlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

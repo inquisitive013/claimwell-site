@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:realpage-renters-deadline@claimwell
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Claim deadline: Apartment rents and RealPage pricing software settl
+ ement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://www.realpagerentalsettlement
+ .com/\n\nConfirm the date on the official settlement site\; it can change.
+  Added from Claimwell\, an independent guide.
+URL:https://www.realpagerentalsettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Apartment rents and RealPage pricing software s
+ ettlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Apartment rents and RealPage pricing software s
+ ettlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

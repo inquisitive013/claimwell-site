@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tenet-pixel-deadline@claimwell
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Claim deadline: Tenet Healthcare website tracking settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://tenetpixelsettlement.com/\n\
+ nConfirm the date on the official settlement site\; it can change. Added f
+ rom Claimwell\, an independent guide.
+URL:https://tenetpixelsettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Tenet Healthcare website tracking settlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: Tenet Healthcare website tracking settlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

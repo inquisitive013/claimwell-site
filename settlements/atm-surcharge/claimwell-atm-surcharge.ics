@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claimwell//Settlement dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:atm-surcharge-deadline@claimwell
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:Claim deadline: ATM surcharges at nonbank ATMs (Visa and Mastercard
+ ) settlement
+TRANSP:TRANSPARENT
+DESCRIPTION:File on the official site: https://www.nonbankatmsurchargesettl
+ ement.com/\n\nConfirm the date on the official settlement site\; it can ch
+ ange. Added from Claimwell\, an independent guide.
+URL:https://www.nonbankatmsurchargesettlement.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: ATM surcharges at nonbank ATMs (Visa and Master
+ card) settlement
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claim deadline: ATM surcharges at nonbank ATMs (Visa and Master
+ card) settlement
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
